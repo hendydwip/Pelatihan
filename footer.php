@@ -13,7 +13,7 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer items-stretch py-4 px-2 bg-grey-lightest shadow-inner mt-2 flex justify-between items-center border-b-4 border-teal flex-col md:flex-row">
+	<footer id="colophon" class="site-footer items-stretch py-4 px-2 bg-grey-lightest shadow-inner mt-2 flex justify-between items-center border-b-4 border-teal flex-col md:flex-row footeran">
 		<div class="site-info justify-between">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'theme' ) ); ?>">
 				<?php
