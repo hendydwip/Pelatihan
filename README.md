@@ -1,6 +1,6 @@
 # Pelatihan
 
-1. Pull from repo
+1. Pull from repo, and place it on folder theme you want
 2. npm install
 3. npm run watch
 4. install ACF Pro on Wordpress
