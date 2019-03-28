@@ -1,0 +1,121 @@
+@css{
+  body{
+    background: url('/project/wp-content/themes/project_theme/assets/img/gray-pattern.jpg') repeat;
+    @apply h-screen;
+  }
+  
+  .site-content{
+    min-height: 80vh;  
+  }
+
+  .pagination h2{
+    @apply text-sm;
+    }
+
+  .post-details a{
+    @apply text-white;
+  }
+
+  a{
+      @apply text-grey-darker;
+      @apply no-underline;
+  }
+  a:hover {
+    @apply text-teal;
+  }
+    
+  .menu-main-menu-container ul{
+    @apply .list-reset .flex;
+  }
+  
+  .menu-main-menu-container ul li{
+    @apply .pl-4 .text-lg;
+  }
+
+  .post-image img{
+    height: 50%;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .post-image-custom img{
+    height: 130px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }  
+
+  .perpost{
+    background:rgba(99, 101, 104, 0.2);
+  }
+
+  .perpost1{
+    background:rgba(99, 101, 104, 0.8);
+  }
+
+  .link a{
+    @apply text-white underline;
+  }
+
+  .link a:hover{
+    @apply text-teal;
+  }
+
+  .pagination{
+    @apply bg-grey p-2 rounded-lg;  
+  }
+
+  .nav-links{
+    @apply justify-start flex w-2/5;  
+  }
+
+  .nav-links div{
+    background:rgba(99, 101, 104, 0.2);
+    @apply p-2 rounded-lg ml-2 text-sm;
+  }  
+
+  aside section{
+    @apply .w-full .mb-2 .p-2 .rounded;
+    background:rgba(99, 101, 104, 0.2);
+  }
+  aside section h2{
+    @apply border-b-2 border-white mb-2;
+  }
+
+  aside section ul{
+    @apply .list-reset;
+  }
+
+  aside section ul li a:hover{
+    @apply .pl-1;
+  }
+
+  input[type="submit"]{
+    @apply my-2;
+  }
+
+
+  // Gallery
+  .gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 180px;
+  }
+
+  .gallery:hover {
+    border: 1px solid #777;
+  }
+
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+}

@@ -1,0 +1,137 @@
+body {
+  background: url('/project/wp-content/themes/project_theme/assets/img/gray-pattern.jpg') repeat;
+  height: 100vh;
+}
+
+.site-content {
+  min-height: 80vh;
+}
+
+.pagination h2 {
+  font-size: .875rem;
+}
+
+.post-details a {
+  color: #fff;
+}
+
+a {
+  color: #606f7b;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4dc0b5;
+}
+
+.menu-main-menu-container ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu-main-menu-container ul li {
+  padding-left: 1rem;
+  font-size: 1.125rem;
+}
+
+.post-image img {
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-image-custom img {
+  height: 130px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.perpost {
+  background: rgba(99, 101, 104, .2);
+}
+
+.perpost1 {
+  background: rgba(99, 101, 104, .8);
+}
+
+.link a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.link a:hover {
+  color: #4dc0b5;
+}
+
+.pagination {
+  background-color: #b8c2cc;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+
+.nav-links {
+  justify-content: flex-start;
+  display: flex;
+  width: 40%;
+}
+
+.nav-links div {
+  background: rgba(99, 101, 104, .2);
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-left: .5rem;
+  font-size: .875rem;
+}
+
+aside section {
+  width: 100%;
+  margin-bottom: .5rem;
+  padding: .5rem;
+  border-radius: .25rem;
+  background: rgba(99, 101, 104, .2);
+}
+
+aside section h2 {
+  border-bottom-width: 2px;
+  border-color: #fff;
+  margin-bottom: .5rem;
+}
+
+aside section ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside section ul li a:hover {
+  padding-left: .25rem;
+}
+
+input[type="submit"] {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+// Gallery
+.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
